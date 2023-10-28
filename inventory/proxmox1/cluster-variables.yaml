@@ -1,0 +1,14 @@
+kube_proxy_mode: iptables
+kube_version: v1.27.5
+helm_enabled: true
+# having issues templating this out for deployment so well do it later
+# metallb_enabled: true
+# metallb_speaker_enabled: true
+# metallb_config:
+#   address_pools:
+#     primary:
+#       ip_range:
+#         - "172.16.43.0-172.16.43.128"
+#       auto_assign: true
+#   layer2:
+#     - primary
